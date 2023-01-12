@@ -1,0 +1,79 @@
+/* 
+
+--- Selectores ---
+    Etiqueta 
+    Clase
+    Identificador
+*/
+
+/* Cualquier etiqueta HTML */
+h1 {
+  color: red;
+  font-size: 20px;
+}
+
+#primero {
+  padding: 10px;
+  background-color: rgb(238, 144, 194);
+}
+
+.hijo {
+  padding: 15px;
+  margin: 20px;
+}
+
+/* 
+    Alarma mental: Necesito controlar su tamaño, porque si no se va a mostrar todo lo grande que es
+
+*/
+.w50 {
+  width: 50%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.columna {
+  margin-top: 10px;
+  background-color: lightcoral;
+  width: 50%;
+}
+
+#noticia {
+  background-color: pink;
+}
+
+/* Todos los <p> dentro de #noticia */
+/* #noticia p { */
+/* SOLO los parrafos HIJO DIRECTO de #noticia */
+
+.finaldenoticia {
+  background-color: aquamarine;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  border-width: 0px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+/* Hover -> pasar el raton por encima */
+.btn:hover {
+  filter: brightness(150%);
+}
+
+/* Una etiqueta <button> que ademas tenga la clase .succes */
+button.succes {
+  background-color: lightgreen;
+}
+
+button.info {
+  background-color: lightblue;
+}
+
+button.danger{
+  background-color: tomato;
+}

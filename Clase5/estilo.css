@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* Font - Familiy: Aplica herencia -> Sus hijos si no le dicen lo contrario adquieren esta regla */
+    font-family: sans-serif;
+    min-height: 2000px;
+}
+
+#fila-cuadrados {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+
+    /* Truco para cuando tengo HIJOS float */
+    overflow: hidden;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 20px;
+
+    /* NO RECOMENDADO */
+    float: left;
+}
+
+/* Si tenemos una class="cuadrado rojo" significa que tiene dos clases distintas, puede ser cuadrado y rojo de manera simultanea */
+
+.rojo {
+    background-color: tomato;
+}
+
+.rojo:hover {
+    background-color: rgb(193, 34, 6);
+}
+
+#fila-aside{
+    background-color: lightpink;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Selector hijo */
+
+#fila-aside .contenido{
+    width: 80%;
+    height: 200px;
+    background-color: lightsteelblue;
+    float: left;
+}
+
+/* Selector HIJO -> SOLO los aside que sean hijos DIRECTOS de #fila-aside */
+#fila-aside > aside{
+}
+
+/* Selector HIJO -> cualquier aside DENTRO de #fila-aside */
+#fila-aside aside{
+    width: 20%;
+    height: 200px;
+    background-color: lightseagreen;
+    float: left;
+}
+
+.contenido{
+    border: 2px solid red;
+}
+
+/* Selector hermano (al lado) */
+h3+p{
+    color: blue;
+}
+
+/* Los hermanos que estan al mismo nivel (adyacente) */
+h3 ~ p{
+    background-color: lightgrey;
+}
+
+/* Los span que estan dentro de un <p> que es hermano directo de <h3> */
+h3 + p span{
+    font-size: 30px;
+    color: purple;
+}
+
+#tablero{
+    border: 1px solid black;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.casilla{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    float: left;
+}
+
+/* Todos los hijos IMPARES */
+.casilla:nth-child(2n + 1){
+    background-color: black ;
+}
+
+/* Todos los hijos PARES */
+.casilla:nth-child(2n) {
+    background-color: white;
+}
+
+#destacado{
+    background-color: lightgreen;
+    width: 200px;
+    display: inline-block;
+    padding: 10px ;
+}
+ 
