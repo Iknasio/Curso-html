@@ -6,10 +6,6 @@ body{
     margin: 0;
 }
 
-h1{
-    background-color: lightgreen;
-}
-
 #cajamain{
     background-color: white;
     overflow: hidden;
@@ -40,13 +36,69 @@ h1{
     float: left;
     height: 100%;
     aspect-ratio: 1/2;
-    background-color: green;
+    background-color: white;
 }
 
 .amarillo{
     float: left;
+    height: 100%;
+    aspect-ratio: 1/2;
+    background-color: white;
+}
+
+.cuadradoverde{
     height: 50%;
+    aspect-ratio: 1/1;
+    background-color: green;
+}
+
+.rectangulosalmon{
+    width: 100%;
+    aspect-ratio: 3/1;
+    background-color: lightsalmon;
+}
+
+.cuadradoamarillo{
+    width: 100%;
     aspect-ratio: 1/1;
     background-color: yellow;
 }
 
+.cuadradomorado{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: purple;
+}
+
+#cajados{
+    width: 100%;
+    aspect-ratio: 6/1;
+    background-color: white;
+    overflow: hidden;
+}
+
+.cajablanca{
+    height: 100%;
+    aspect-ratio: 5/1;
+    background-color: white;
+    float: left;
+}
+
+.cajamorada{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: purple;
+    float: left;
+}
+
+#cajatres{
+    width: 100%;
+    aspect-ratio: 18/1;
+    background-color: white;
+}
+
+.cajanaranja{
+    height: 100%;
+    width: 70%;
+    background-color: orange;
+}
