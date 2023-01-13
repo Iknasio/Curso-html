@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+ #cajamain{
+    overflow: hidden;
+ }
+
+ .fecha-pagina{
+    background-color: white;
+    overflow: hidden;
+ }
+
+ .pagina{
+    float: left;
+ }
+
+ .fecha{
+    float: right;
+ }
