@@ -1,0 +1,98 @@
+/*
+    Clase 10
+
+    - Repaso color y prioridad CSS
+
+    -Enlaces, anclas
+
+    -Background
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(90, 208, 90);
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 8px;
+    margin: 0;
+}
+
+.nav_item {
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+    /* Inline que me permite cambiar de tamaño y poner padding por dentro */
+    display: inline-block;
+    text-align: center;
+    padding: 4px; 
+    border: 2px solid #96d181;
+}
+
+.nav_item:hover {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Si hemos visitado este enlace, cambiara de color */
+.nav_item:visited {
+    color: red;
+}
+
+/* Cuando tenemos el enlace clickado (boton pulsado) */
+.nav_item:active {
+    color: yellow;
+}
+
+header {
+    /* 100% eñ tamaño del navegador */
+    min-height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+    background-image: url('mountains-gb23dccbe2_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#primero {
+    min-height: 100vh;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+#primero h3 {
+    margin: 0;
+}
+
+#segundo {
+    min-height: 100vh;
+    background-color: lightsalmon;
+    background-image: url('mountains-gb23dccbe2_1280.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 40px;
+}
+
+h2 {
+    color: white;
+}
