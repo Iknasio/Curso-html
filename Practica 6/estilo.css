@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 170vh;
+}
+
+#panel1 {
+    margin-top: 0;
+    background-image: url('mario.png'), url('seta2.png'), url('moneda.png'), url('background-simple.png');
+    height: 600px;
+    background-position: bottom left, bottom center, bottom right;
+    background-repeat: no-repeat, no-repeat, repeat-y, no-repeat;
+    background-size: 6%, 5%, 4.7%, cover;
+}
+
+#panel2 {
+    background-color: white;
+    height: 50vh;
+}
+
+#panel3 {
+    background-image: url('Mario-logo.png'), url('monstruo.png'), url('background-simple.png'); 
+    height: 50vh;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll, fixed, fixed;
+    background-position: top right, 10% 85.5%, center;
+    background-size: 230px, 100px, cover;
+}

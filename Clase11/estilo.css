@@ -1,0 +1,44 @@
+/* 
+    -Repaso Backgrounds
+    -Multiples Backgrounds
+    -Margin, Border, Padding, Content -> Box Sizing
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    border: 1px solid red;
+    padding: 20px;
+    padding-top: 20px;
+    background-image: url('hiking-g21b2c84e8_1280.jpg');
+    height: 50vh;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#uno {
+    background-color: coral;
+    height: 500px;
+    padding: 20px;
+    padding: 100px 50px;
+
+    background-image: url('png-clipart-super-mario-bros-icons-star-thumbnail.png'), url('mountains-gb23dccbe2_1280.jpg');
+    background-size: 100px, cover;
+    background-repeat: repeat-x, no-repeat;
+    background-position: bottom left, center center;
+    background-attachment: scroll, fix;
+}
