@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 180vh;
+    font-family: sans-serif;
+    background-color: #3F3F3F;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: #3F3F3F;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.position {
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 7%;
+}
+
+.apartados {
+    color: white;
+    float: right;
+    margin-right: 3%;
+    position: relative;
+    top: 22px;
+    right: 7%;
+    display: inline;
+}
+
+#uno {
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+#dos {
+    background-color: whitesmoke;
+    height: 1000px;
+    width: 100%;
+}
+
+.caja1 {
+    background-color: lightslategrey;
+    height: 450px;
+    aspect-ratio: 1/1;
+    border-radius: 2%;
+    float: left;
+    margin: 4%;
+    position: relative;
+    left: 6.5%;
+    top: 4%;
+}
