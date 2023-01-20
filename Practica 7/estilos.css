@@ -43,7 +43,7 @@ nav {
     background-color: white;
     height: 1000px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 32px;
     overflow: hidden;
 }
 
@@ -152,4 +152,41 @@ nav {
     box-shadow: 5px 3px 7px rgb(141, 133, 133);
 }
 
+#pregunta {
+    background-color: rgb(136, 40, 204);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    z-index: 110;
+}
+
+.pregunta {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 27px;
+    left: 37px;
+}
+
+#mas {
+    background-color: rgb(136, 40, 204);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 110;
+}
+
+.mas {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    left: 24px;
+}
 
