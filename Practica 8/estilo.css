@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navegador {
+    width: 100%;
+    height: 59px;
+    margin: 0;
+    background-color: white;
+    border-bottom: 2px solid #656565;
+
+}
+
+.contenedor-nav {
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columna-nav {
+    height: 100%;
+    width: 33.3%;
+}
+
+.banner {
+    min-height: 600px;
+    background-image: url('home-image.jpeg');
+    background-size: cover;
+}

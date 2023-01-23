@@ -55,6 +55,9 @@ nav {
     height: 1000px;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .caja1 {
@@ -65,7 +68,7 @@ nav {
     float: left;
     margin: 4.5%;
     position: relative;
-    left: 6.5%;
+    left: 1.5%;
     top: 8%;
     box-shadow: -5px 3px 13px rgb(141, 133, 133);
 }

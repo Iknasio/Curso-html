@@ -1,0 +1,71 @@
+/*
+    -El :root sirve para crear elementos variables que se pueden indentificar por el nombre. Si cambiamos el valor de un elemento dentro de host este cambiara en todos las partes del codigo que se hayan identificado como tal.
+*/
+
+:root {
+    --main-color: #c58d05;
+    --secondary-color: #c44b44;
+    --grey-lighter: #c3c3c3;
+    --padding-estandar: 3px;
+}
+
+/* ESTILO COMUN */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 500vh;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+/* PAGINA INICIO */
+header {
+    min-height: 10vh;
+    background-color: #c3c3c3;
+}
+
+#uno {
+    padding: 20px;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.columna {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+}
+
+.ficha {
+    background-color: var(--grey-lighter);
+    padding: var(--padding-estandar);
+} 
+
+.destacado {
+    color: #c58d05;
+}
+
+/* PAGINA CONTACTO */
+
+/* MEDIA QUERIES */
+
+/* Dispositivos entre 0 y 900 */
+@media (max-width: 900px) {
+    .columna {
+        width: 50%;
+    }
+}
+
+/* Dispositivos entre 0 y 500 */
+@media (max-width: 500px) {
+    .columna {
+        width: 100%;
+    }
+}
