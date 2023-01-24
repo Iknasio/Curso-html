@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+#padre {
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.hijo {
+    height: 100px;
+    width: 33.3%;
+    border: 1px solid black;
+    background-color: coral;
+}
+
+h2 {
+    background-color: blanchedalmond;
+}
+
+#uno {
+    background-color: lightpink;
+    padding: 20px;
+    display: flex;
+    /* Cuando no quepan los llevas a una segunda linea */
+    flex-wrap: wrap;
+
+    /* Direccion principal (por defecto es row)
+        -> Direccion secundaria va a ser la perpendicular (por defecto es column)
+    */
+    flex-direction: row;
+
+    /* Comportamiento en la direccion principal */
+    justify-content: center;
+
+    /* Comportamiento en la direccion secundaria */
+    align-items: center;
+}
+
+.uno-hijo {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+}
+
+#dos {
+    height: 500px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+
+    /* Comportamiento en la direccion principal -->COLUMN */
+    justify-content: center;
+
+    /* Comportamiento en la direccion secundaria --> ROW */
+    align-items: center;
+}
+
+.dos-hijo {
+    height: 50px;
+    width: 50px;
+    background-color: yellowgreen;
+}
