@@ -141,11 +141,52 @@ body {
     padding-left: 15px;
 }
 
+.head-awesome {
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 30px 0;
+    line-height: 60px;
+}
+
+p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    line-height: 1.5rem;
+}
+
+.lista {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.lista-check {
+    color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.exploring-box {
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
 .row2 {
     height: 100%;
     width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .telefono {
