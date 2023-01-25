@@ -196,3 +196,29 @@ p {
     height: 394px;
     margin-left: auto; 
 }
+
+.features-main {
+    max-width: 1140px;
+    min-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.features-box {
+    height: 450px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.features-list{
+    width: 33.3333333%;
+    height: 50%;
+}
