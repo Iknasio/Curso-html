@@ -516,6 +516,22 @@ h5 {
     width: 100%;
     padding: 25px 5px;
     background-color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+sup {
+    position: relative;
+    top: -6px;
+    font-size: 21px;
+}
+
+span {
+    font-size: 38px;
+}
+
+small {
+    font-size: 22px;
 }
 
 .option1 {
@@ -602,4 +618,40 @@ h5 {
     border: 2px solid rgb(70, 66, 66);
     background-color: rgb(70, 66, 66);
     color: #F5FAFD;
+}
+
+.option-price2 {
+    height: 107px;
+    width: 100%;
+    padding: 25px 5px;
+    background-image: url('home-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.buynow2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 125px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-image: url('home-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 13px 15px;
+}
+
+.line {
+    width: 1080px;
+    margin: 15px auto;
+    border-bottom:  1px solid rgb(228, 222, 222);
 }
