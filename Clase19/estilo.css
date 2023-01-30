@@ -1,0 +1,42 @@
+/* Metodologia BEM -> Bloque, Elemento, Modificador */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.boton {
+    background-color: white;
+    color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.boton:hover {
+    background-color: lightgray;
+}
+
+.boton--destacado {
+    color: white;
+    background-color: #3c3c3c;
+    border: 1px solid white;
+}
+
+.boton--destacado:hover {
+    background-color: white;
+}
+
+.boton--green {
+    border-color: var(--color--green);
+    color: var(--color--green);
+}
+
+#grid .card .boton {
+    
+}
