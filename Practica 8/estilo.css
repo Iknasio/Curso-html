@@ -34,7 +34,6 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    height: 400vh;
 }
 
 /* Esta es la parte del banner naranja */
@@ -695,7 +694,7 @@ h6 {
     font-size: 15px;
     margin-bottom: 10px;
     margin-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     line-height: 1.5rem;
     text-align: center;
 }
@@ -703,7 +702,7 @@ h6 {
 .team-members {
     height: 275px;
     max-width: 1110px;
-    margin: 60px 0px;
+    margin: 30px 0px;
 }
 
 .team-row {
@@ -822,7 +821,27 @@ h6 {
     flex-direction: row;
 }
 
-.sistemas--card {
+.card--download {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.card--store {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:  rgb(113, 113, 113);
+    font-size: 14px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.sistemas--card1 {
     position: relative;
     top: 0;
     width: 33.3333%;
@@ -830,12 +849,146 @@ h6 {
     margin-left: 15px;
     margin-right: 15px;
     background-color: white;
+    color: #6c757d ;
     border-radius: 15px;
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px -1px;
     transition: all .2s;
+    display: flex;
+    flex-direction: row;
 }
 
-.sistemas--card:hover {
+.sistemas--card1:hover {
     top: -10px;
     box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
+    color: #9aa2a9;
+}
+
+.sistemas--card2 {
+    position: relative;
+    top: 0;
+    width: 33.3333%;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    color: #6c757d ;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px -1px;
+    transition: all .2s;
+    display: flex;
+    flex-direction: row;
+}
+
+.sistemas--card2:hover {
+    top: -10px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
+    color: #95d349;
+}
+
+.sistemas--card3 {
+    position: relative;
+    top: 0;
+    width: 33.3333%;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    color: #6c757d ;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px -1px;
+    transition: all .2s;
+    display: flex;
+    flex-direction: row;
+}
+
+.sistemas--card3:hover {
+    top: -10px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
+    color: #007bff;
+}
+
+.fa-apple {
+    padding: 15px !important;
+    width: 80px !important;
+    margin-left: 15px !important;
+}
+
+.fa-android {
+    padding: 15px !important;
+    width: 80px !important;
+    margin-left: 15px !important;
+}
+
+.fa-windows {
+    padding: 15px !important;
+    width: 80px !important;
+    margin-left: 15px !important;
+}
+
+
+/* Esta es la parte del footer */
+
+.footer {
+    width: 100%;
+    min-height: 180px;
+    background-color: #252422;
+    margin-top: -5px;
+}
+
+.footer--box {
+    height: 210px;
+    width: 1140px;
+    padding: 48px 15px;
+    margin: auto;
+}
+
+.footer-icons {
+    min-height: 45px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:  #DDDDDD;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.fa-facebook {
+    font-size: 25px !important;
+    background: #252422;
+    color: white;
+}
+
+.fa-twitter {
+    font-size: 25px !important;
+    background: #252422;
+    color: white;
+}
+
+.fa-google {
+    font-size: 25px !important;
+    background: #252422;
+    color: white;
+}
+
+.fa-instagram {
+    font-size: 25px !important;
+    background: #252422;
+    color: white;
 }
