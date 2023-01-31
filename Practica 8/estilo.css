@@ -135,12 +135,14 @@ body {
 .downloadnow:hover {
     background-color: #fff;
     color: black;
+    cursor: pointer;
 }
 
 .home:hover,
 .feature:hover,
 .pricing:hover {
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -222,6 +224,7 @@ p {
 .exploring-box:hover{
     background-color: #fff;
     color: black;
+    cursor: pointer;
 }
 
 .row2 {
@@ -670,7 +673,8 @@ small {
 }
 
 .team-box {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     min-height: 475px;
     margin: 0px auto;
     padding: 0px 15px;
@@ -700,7 +704,7 @@ h6 {
 }
 
 .team-members {
-    height: 275px;
+    min-height: 275px;
     max-width: 1110px;
     margin: 30px 0px;
 }
@@ -710,11 +714,13 @@ h6 {
     height: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .team-card {
-    width: 33.3333%;
-    margin: 0px 15px;
+    width: 340px;
+    margin: 15px 15px;
     background-color: #F5FAFD;
     border-radius: 15px;
     padding: 32px;
@@ -827,9 +833,9 @@ h6 {
     color: black;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 23px;
+    margin-top: 27px;
     margin-left: 15px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 .card--store {
@@ -861,6 +867,7 @@ h6 {
     top: -10px;
     box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
     color: #9aa2a9;
+    cursor: pointer;
 }
 
 .sistemas--card2 {
@@ -883,6 +890,7 @@ h6 {
     top: -10px;
     box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
     color: #95d349;
+    cursor: pointer;
 }
 
 .sistemas--card3 {
@@ -905,6 +913,7 @@ h6 {
     top: -10px;
     box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
     color: #007bff;
+    cursor: pointer;    
 }
 
 .fa-apple {
@@ -991,4 +1000,10 @@ h6 {
     font-size: 25px !important;
     background: #252422;
     color: white;
+}
+
+@media (max-width: 1160px) {
+    .team-card {
+        width: 100%;
+    }
 }
