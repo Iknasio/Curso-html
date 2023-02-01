@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 3px;
+    color: #1d1d1d;
+    
+}
+
+/* Esta es la parte del navegador */
+
+nav {
+    width: 100%;
+    height: 104px;
+    padding: 37px 118px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pixar{
+    margin: 0 15px;
+    height: 28px;
+    width: 150px;
+    background-image: url('pixar.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button--style {
+    margin: auto 15px;
+    font-size: 15px;
+}
+
+.button--style:hover {
+    color: #a2a2a2;
+    cursor: pointer;
+}
+
+/* Esta es la parte del banner */
+
+.banner {
+    width: 100%;
+    min-height: 550px;
+    background-image: url('buzz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    padding: 150px 100px;
+}
+
+.banner-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
