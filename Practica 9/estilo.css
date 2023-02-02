@@ -65,24 +65,30 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 20%;
-    /* background-attachment: fixed; */
-    padding: 250px 142px;
+    padding: 248px 124px;
 }
 
 .banner-box {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-right: 30%;
+    padding-left: 10%;
 }
+
 
 .banner-img {
     width: 100%;
-    height: 100%;
+    min-width: 700px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .lightyear {
-    position: absolute;
-    left: 20%;
-    z-index: 2;
+    width: 100%;
+    min-width: 560px;
 }
 
 /* Esta es la parte de las imagenes enlazadas */
