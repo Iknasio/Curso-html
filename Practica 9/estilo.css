@@ -8,6 +8,7 @@ body {
     font-family: 'Alata', sans-serif;
     letter-spacing: 3px;
     color: #1d1d1d;
+    min-height: 200vh;
     
 }
 
@@ -23,23 +24,19 @@ nav {
 }
 
 .logo {
-    width: 30%;
+    width: 15%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
-.pixar{
-    margin: 0 15px;
-    height: 28px;
-    width: 150px;
-    background-image: url('pixar.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.pixar>img {
+    width: 100%;
+    height: 100%;
 }
 
 .button {
-    width: 70%;
+    width: 85%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -49,6 +46,9 @@ nav {
 .button--style {
     margin: auto 15px;
     font-size: 15px;
+    text-decoration: none;
+    background: none;
+    color: #1d1d1d;
 }
 
 .button--style:hover {
@@ -60,19 +60,57 @@ nav {
 
 .banner {
     width: 100%;
-    min-height: 550px;
-    background-image: url('buzz.jpg');
+    min-height: 650px;
+    background-image: url('buzz.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
-    padding: 150px 100px;
+    background-position: 50% 20%;
+    /* background-attachment: fixed; */
+    padding: 250px 142px;
 }
 
 .banner-box {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.lightyear {
+    position: absolute;
+    left: 20%;
+    z-index: 2;
+}
+
+/* Esta es la parte de las imagenes enlazadas */
+
+.enlaces {
+    width: 100%;
+    min-height: 800px;
+    padding: 150px 142px;
+}
+
+.enlaces-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-img {
+    width: 100%;
+    padding: 0px 17px 17px;
+}
+
+.enlaces-img {
+    width: 100%;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+}
