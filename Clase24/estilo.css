@@ -1,0 +1,42 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotation {
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+.rotation:hover {
+    transform: translate(100px) rotate(30deg);
+}
