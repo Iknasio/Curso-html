@@ -8,6 +8,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    height: 200vh;
 }
 
 h1,
@@ -21,7 +22,7 @@ h2 {
     justify-content: center;
 }
 
-.box {
+.cuadro {
     margin: 20px;
     height: 200px;
     width: 200px;
@@ -32,11 +33,69 @@ h2 {
     align-items: center;
 }
 
-.rotation {
+.rotation > .cuadro {
+    transition-property: transform;
+    transition-duration: .5s;
+    transform-origin: top left ;
+}
+
+.rotation:hover .cuadro {
+    transform: translate(100px) rotate(30deg);
+}
+
+.rotation3d > .cuadro {
+   transition-duration: .5s;
+}
+
+.rotation3d:hover .cuadro{
+    transform: rotate3d(3, 4, 0, 45deg);
+}
+
+.caja {
+    padding: 30px;
+    width: 300px;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+}
+
+.caja__tapa {
+    background-color: #3c3c3c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+
+.open-translate {
+    overflow: hidden;
+}
+
+.open-translate > .caja__tapa {
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-delay: .5s;
+}
+
+.open-translate:hover .caja__tapa { 
+    transform: translatex(100%);
+}
+
+.open-rotate {
+    perspective: 1500px;
+}
+
+.open-rotate .caja__tapa {
+    transform-origin: center bottom;
     transition-property: transform;
     transition-duration: .5s;
 }
 
-.rotation:hover {
-    transform: translate(100px) rotate(30deg);
+.open-rotate:hover .caja__tapa {
+    transform: rotatex(-120deg);
 }
