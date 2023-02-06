@@ -145,3 +145,81 @@ nav {
     color: #a2a2a2;
 }
 
+/* Esta es la parte del footer */
+
+.footer {
+    width: 100%;
+    min-height: 350px;
+    padding: 0px 142px;
+    padding-bottom: 50px;
+}
+
+.social-box {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-social {
+    width: 300px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: .1s;
+}
+
+.footer-social:hover {
+    color: #a2a2a2;
+}
+
+.footer-button {
+    width: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa {
+    transition: .2s;
+}
+
+.fa:hover {
+    color: #1d1d1d;
+    cursor: pointer;
+}
+
+.terms-box {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.terms-link {
+    color: #1d1d1d;
+    transition: .1s;
+}
+
+.terms-link:hover {
+    color: #a2a2a2;
+    cursor: pointer;
+}
+
+.terms-button {
+    color: #68b631;
+    border: 1px solid #68b631;
+    font-family: 'Alata', sans-serif;
+    height: 60px;
+    width: 390px;
+    font-size: 16px;
+}
+
+.terms-button:hover {
+    color: white;
+    background-color: #68b631;
+    cursor: pointer;
+}
+
