@@ -34,7 +34,6 @@ nav {
 }
 
 .pixar>img {
-    width: 100%;
     height: 100%;
 }
 
@@ -94,6 +93,26 @@ nav {
     color: #a2a2a2;
 }
 
+.menu {
+    display: none;
+}
+
+@media (max-width: 1250px) {
+    .button--style {
+        display: none;
+    }
+    .menu {
+        display: block;
+        margin-top: 13px;
+    }
+}
+
+@media (max-width: 700px) {
+    nav {
+        padding: 37px 50px;
+    }
+}
+
 /* Esta es la parte del banner */
 
 .banner {
@@ -104,6 +123,9 @@ nav {
     background-repeat: no-repeat;
     background-position: 50% 20%;
     padding: 248px 124px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .banner-box {
@@ -121,21 +143,35 @@ nav {
 
 .banner-img {
     width: 100%;
-    min-width: 700px;
     padding-left: 0;
     padding-right: 0;
 }
 
 .lightyear {
     width: 100%;
-    min-width: 560px;
+    min-width: 250px;
 }
+
+@media (max-width: 1250px) {
+
+    .banner-box {
+        justify-content: center;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .banner {
+        justify-content: center;
+    }
+}
+
+
 
 /* Esta es la parte de las imagenes enlazadas */
 
 .enlaces {
     width: 100%;
-    max-height: 800px;
+    min-height: 800px;
     padding: 150px 5%;
 }
 
@@ -159,6 +195,12 @@ nav {
 .card-text {
     text-align: center;
     font-size: 14px;
+}
+
+@media (max-width: 1600px) {
+    .enlaces-box {
+        flex-wrap: wrap;
+    }
 }
 
 /* Esta es la parte del footer */
@@ -237,5 +279,12 @@ nav {
     color: white;
     background-color: #68b631;
     cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .terms-button {
+        width: 200px;
+        font-size: 10px;
+    }
 }
 
