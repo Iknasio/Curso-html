@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+h1, 
+h2 {
+    margin: 0;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    border: 1px solid #3c3c3c;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form.control {
+   display: block;
+}
+
+input.form-control {
+    display: block;
+}
+
+textarea.form-control {
+    display: block;
+}
+
+select.form-control {
+    resize: none;
+    width: 100%;
+}

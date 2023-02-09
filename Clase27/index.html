@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+<a href="otraPagina.html">Ir a otra pagina</a>    
+
+<h1>Formularios</h1>
+
+<div>
+    <form action="">
+        <label for="id_nombre"> Nombre </label>
+        <input class="form-control" type="text" name="nombre" id="nombre">
+
+        <label for="apellidos"> Apellidos </label>
+        <input 
+        class="form-control" 
+        type="text" 
+        name="apellidos" 
+        id="apellidos">
+
+        <label for="edad"> Edad </label>
+        <input 
+        class="form-control" 
+        type="number"
+        name="edad" 
+        min="18" 
+        max="120">
+
+        <label for="email"> eMail </label>
+        <input 
+        class="form-control" 
+        type="email" >
+
+        <label for="password"> Pass</label>
+        <input
+        class="form-control"
+        type="password">
+
+        <label for="select">Select</label>
+        <select name="form-control" id="">
+            <option value="1">Audi</option>
+            <option value="2">Mercedes</option>
+            <option value="3">Tesla</option>
+            <option value="4">Seat</option>
+        </select>
+
+        <label for="consulta"> Consulta </label>
+        <textarea
+        class="form-control"
+        name="consulta" 
+        id="consulta"
+        rows="18"></textarea>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</div>
+ 
+</body>
+</html>
