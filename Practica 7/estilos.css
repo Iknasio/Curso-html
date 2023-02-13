@@ -73,6 +73,15 @@ nav {
     box-shadow: -5px 3px 13px rgb(141, 133, 133);
 }
 
+.caja1:hover {
+    background-color: rgb(136, 40, 204);
+    color: white;
+}
+
+.caja1:hover> .appbars {
+    color: white;
+}
+
 .buttons {
     height: 50%;
     margin: 5px;
@@ -102,6 +111,14 @@ nav {
     left: 1px;
     top: 1px;
     box-shadow: -5px 3px 13px rgb(141, 133, 133);
+}
+
+.caja1-2:hover {
+    background-color: rgb(136, 40, 204);
+}
+
+.caja1-2:hover> .appbars {
+    color: white;
 }
 
 .backdrop {

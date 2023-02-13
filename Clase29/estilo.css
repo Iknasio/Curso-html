@@ -1,0 +1,55 @@
+/* 
+
+- Hosting
+
+- CSS GRID
+
+--> Prueba
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 2000px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    /* Si dentro de grid-template-columns ponemos varios valores, significa que habra tantas columnas como valores haya, y cada valor sera asignado a cada una de las respectivas columnas */
+    /* grid-template-columns: 33.33% 33.33% 33.33%; */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* Lo mismo pasa con grid-template-rows */
+    grid-template-rows: 100px 100px 100px;
+    gap: 1px;
+}
+
+.item-container {
+    background-color: lightgrey;
+}
+
+.grid-container2 {
+    margin-top: 100px;
+    display: grid;
+    gap: 2px;
+    justify-content: center;
+    /* repeat (n, t); donde n es el numero de columnas y t el tamaño de estas */
+    grid-template-columns: repeat(6, 100px);
+}
+
+.grid-container2> .item-container {
+    height: 100px;
+}
+
+.item1 {
+    grid-column-start: 2;
+}
