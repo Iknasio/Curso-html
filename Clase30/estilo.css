@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+#container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid black;
+    width: 350px;
+    position: relative;
+    /* preserve-3d sirve para que el padra mantenga las perspectivas de los hijos al transformarle, de esta manera si con los hijos creamos un cubo o cualquier figura 3d, esta nunca perdera la forma */
+    transform-style: preserve-3d;
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+.cara-a {
+    /* Esto vale para que no haya espacio entre el borde del marco y la imagen */
+    line-height: 0;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+}
+
+.cara-a__imagen {
+    width: 100%;
+}
+
+.cara-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: #ff000088;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.container-card:hover .card {
+    transform: rotateY(180deg);
+}
+
+.circulo {
+    stroke: green;
+    stroke-width: 3;
+    fill: blue;
+    transition: fill 2s;
+    animation-name: escalar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: 50px;
+}
+
+.circulo:hover {
+    fill: white;
+}
+
+@keyframes escalar {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(0.5);
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
