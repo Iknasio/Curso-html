@@ -406,12 +406,20 @@ h3 {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 5%;
+  height: 800px;
 }
 
 .iframe {
     width: 90%;
     max-width: 1200px;
     max-height: 800px;
+}
+
+@media (max-width: 900px) {
+    .map-responsive {
+       height: 400px;
+    }
 }
 
 /* Esta es la parte del footer */
@@ -476,4 +484,5 @@ h3 {
     font-style: italic;
     font-size: 24px;
     color:#90909b;
+    margin-top: 80px;
 }
