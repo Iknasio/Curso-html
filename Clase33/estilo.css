@@ -1,0 +1,39 @@
+/* 
+
+    - Servidor de trazos
+        - FTP: File Transfer Protocol
+    - Empezar con JS
+
+Nos queda por ver:
+
+    - Bootstrap (para parguelas que no saben CSS)
+    - jQuery -> JS -> Lenguaje de programacion
+    - PHP -> PreProcesador HTML -> Lenguaje de programacion
+    - Wordpress 
+    - SCSS / Preprocesadores
+    - SEO
+
+Pasar datos de nuestro ordenardor al servidor:
+
+    - FileZilla, a la izquierda estan los archivos de nuestro ordenador, a la derecha estan los archivos del servidos.
+
+Opciones recomendadas de hosting:
+
+    - Webempresa
+    - Siteground
+
+    Mas baratos
+
+    - Hostinger
+
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
