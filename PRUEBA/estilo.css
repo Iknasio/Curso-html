@@ -34,6 +34,7 @@ p {
     background-image: url(hamburguesas.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
 }
@@ -130,6 +131,12 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap ;
+}
+
+@media (max-width: 900px) {
+    .text-container {
+        padding: 0px 30px;
+    }
 }
 
 /* Esta es la parte de las primeras imagenes */
@@ -240,6 +247,7 @@ p {
         align-items: center;
         padding: 0;
         text-align: center;
+        width: 80%;
     }
 }
 
@@ -352,6 +360,24 @@ p {
     .menu-left,
     .menu-right {
         width: 80%;
+    }
+
+    .text-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-menu {
+        border: 1px solid black;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1px auto;
+        text-align: center;
     }
 }
 
