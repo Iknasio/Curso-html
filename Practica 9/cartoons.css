@@ -98,7 +98,9 @@ nav {
 
 .menu {
     display: none;
+    cursor: pointer;
 }
+
 
 @media (max-width: 1250px) {
     .button--style {
