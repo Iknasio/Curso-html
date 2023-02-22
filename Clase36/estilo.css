@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#contenedor_uno {
+    background-color: lightblue;
+    padding: 30px;
+}
